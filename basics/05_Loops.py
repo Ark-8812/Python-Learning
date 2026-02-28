@@ -12,4 +12,4 @@ while count  <= 5:
 
 for i in range(10):
   print("This is loop number", i) #You can use any letter no need to just put I
-#The number in the brachets can also be changed 
+#The number in the brackets can also be changed 
