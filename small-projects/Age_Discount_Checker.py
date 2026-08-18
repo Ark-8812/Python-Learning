@@ -1,9 +1,11 @@
 age = int(input("What is your age? "))  # input for the user's age
 
 if age <= 18:
-    print("Discount not applied")
+    print("Student Discount applied!")
+elif age >= 75:
+    print("Senior Discount applied")
 else:
-    print("Discount Applied")
+    print("Discount Not Applied")
 
 checkout = input("Proceed to checkout? ")
 
