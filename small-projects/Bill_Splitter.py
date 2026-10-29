@@ -1,0 +1,11 @@
+bill = float(input("Total bill: $"))
+people = int(input("Number of people: "))
+tip_percentage = int(input("Tip percentage (%): "))
+tip_amount = round(bill * tip_percentage / 100, 2)
+final_bill = round(bill + tip_amount, 2)
+per_person = round(final_bill / people, 2)
+
+print()
+print(f"Tip amount: ${tip_amount:.2f}")
+print(f"Final bill: ${final_bill:.2f}")
+print(f"Each person pays: ${per_person:.2f}")
